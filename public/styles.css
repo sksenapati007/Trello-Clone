@@ -1,0 +1,38 @@
+.board-layout {
+    background-color: rgb(8, 12, 31);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    height: 100vh ;
+    overflow: hidden;
+}
+
+.list-layout {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.board-list {
+    background-color: rgb(235, 236, 240);
+    border-radius: 3px;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-gap: 10px;
+    /* Chrome use a fixed height */
+    height: max-content;
+    padding: 10px;
+    margin: 2px;
+}
+
+.list-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cards {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, .25);
+    padding: 10px;
+    cursor: pointer;
+}
